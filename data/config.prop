@@ -1,0 +1,6 @@
+hosts: 10.0.0.1,10.0.0.2
+10.0.0.1: client
+10.0.0.2: server
+server.port: 20
+client.lambda: 0.5
+client.dsttype: server
